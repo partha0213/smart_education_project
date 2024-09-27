@@ -1,0 +1,43 @@
+name: smart_education_project
+description: A smart education app built with Flutter.
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_bloc: ^8.0.0
+  equatable: ^2.0.5
+  dio: ^5.0.1
+  formz: ^0.7.0
+  cached_network_image: ^3.2.3
+  flutter_local_notifications: ^15.0.0
+  hive: ^2.2.0
+  hive_flutter: ^1.1.0
+  responsive_framework: ^1.5.1 # Updated version
+  flutter_web_plugins:
+    sdk: flutter
+  flutter_staggered_animations: ^1.0.0
+  flutter_screenutil: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  dart_code_metrics: ^5.0.0
+  flutter_lints: ^2.0.0
+  fl_chart: ^0.40.0
+  video_player: ^2.6.2
+  flutter_local_notifications: ^15.1.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/locale/en.json
+    - assets/locale/hi.json
+    - assets/locale/ta.json
+
